@@ -1,0 +1,55 @@
+ @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+/*   ###  Import  ###   */
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #0c2535;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+h1{
+    flex: 1;
+    text-align: left;
+    margin-left: 3.5%;
+    font-family: 'Red Hat Mono';
+    color: #c21717;
+    font-weight: 100;
+    font-size: 34px;
+}
+
+input{
+    margin-right: 5%;
+    width: 156px;
+    height: 25px;
+    background-color: #fff;
+    color: rgb(69, 1, 47);
+    font-size: 17px;
+    padding-left: 14px;
+    border-radius: 6px;
+    border: solid 4px black ;
+    transition: 400ms;
+}
+
+input:focus {
+    outline:none; 
+    border-color:#fff ;
+}
+
+main{
+    background-color: #eee;
+    height: 200%;
+}
+
+p{
+    width: 40%;
+    float: left;
+}
+img{
+    width: 60%;
+}
